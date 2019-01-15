@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-app.use('/img', express.static('image'));
+app.use('/img', express.static('img/image'));
 
 app.set('view engine', 'pug');
 app.set('views','./views');

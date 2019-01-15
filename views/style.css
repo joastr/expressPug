@@ -3,10 +3,11 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 img {
-    margin-top: 200px;
+    margin-top: 0;
 }
 
 h1 {
@@ -56,12 +57,16 @@ input[type="submit"] {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 20px;
+    float: left;
 }
 
-.box {
-    background-image: url('./tiger.jpg');
+.box {  
     max-width: 1200px;
-    background-position: cover;
     margin: 50px auto;
     color: white;
+    text-align: center;
+}
+.tiger {
+max-width: 1200px;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
